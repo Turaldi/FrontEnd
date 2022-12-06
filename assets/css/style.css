@@ -84,7 +84,6 @@ a:hover {
 
 .language {
     color: #2bbef9;
-
     display: none;
     position: absolute;
     background-color: white;
@@ -201,15 +200,18 @@ a:hover {
     justify-content: space-evenly;
     width: 200px;
 }
-.nav-search input[type="text"]{
+
+.nav-search input[type="text"] {
     width: 553px;
     height: 60px;
-    
+
 }
+
 .start-navbar {
     display: flex;
     margin-left: 10%;
 }
+
 .img-logo {
     width: 150px;
     cursor: pointer;
@@ -226,34 +228,36 @@ a:hover {
     margin-left: 5%;
     border: 2px solid #d9d9e9;
     border-radius: 15px;
-    padding:  18px;
+    padding: 18px;
 }
 
-.location p{
+.location p {
     opacity: .5;
     font-size: small;
 }
-.location span{
+
+.location span {
     color: #233a95;
     font-size: small;
 }
 
-.nav-search{
+.nav-search {
     width: 100%;
     position: relative;
     display: flex;
 }
 
-.search-bar{
-  margin-left: 65px;
-  border: 3px solid #f3f4f7;
-  border-right: none;
-  padding: 15px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  background-color: #f3f4f7;
+.search-bar {
+    margin-left: 65px;
+    border: 3px solid #f3f4f7;
+    border-right: none;
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background-color: #f3f4f7;
 }
+
 .search-button {
     width: 40px;
     height: 36px;
@@ -264,15 +268,15 @@ a:hover {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 20px;
-  }
+}
 
-.nav-search i{
+.nav-search i {
     position: absolute;
     right: 20px;
     top: 20px;
 }
 
-.button-user{
+.button-user {
     display: flex;
     font-size: 40px;
     margin-left: 25px;
@@ -280,17 +284,183 @@ a:hover {
     cursor: pointer;
 }
 
-.basket-piece{
+.basket-piece {
     display: flex;
-    padding: 15px; 
+    padding: 15px;
     font-size: 16px;
+    cursor: pointer;
 
 }
 
-.basket{
-    
+.basket {
+
     color: red;
     margin-left: 15px;
+    cursor: pointer;
 }
+
+
+.categories {
+    display: flex;
+}
+
+.nav-list {
+   display: flex;
+   margin-left: 10%;
+    
+}
+
+.category-list {
+    border: 2px solid #2bbef9;
+    background-color: #2bbef9;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    font-size: small;
+    margin-left: 11%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* 
+li:hover {
+    color: #2bbef9;
+} */
+
+
+
+.btn-home {
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.home {
+    display: inline-block;
+    position: relative;
+    margin-left: 20%;
+    white-space: nowrap;
+
+}
+
+.home-list {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.home-list li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.home-list li:hover {
+    color: #2bbef9;
+    cursor: pointer;
+}
+
+.btn-home:hover + .home-list {
+    display: block;
+}
+
+.home:hover .btn-home {
+    background-color: white;
+}
+
+
+
+
+.btn-shop {
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.shop {
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+   
+}
+
+.shop-list {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.shop-list li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.shop-list li:hover {
+    color: #2bbef9;
+    cursor: pointer;
+}
+
+.shop:hover .shop-list {
+    display: block;
+}
+
+.shop:hover .btn-shop {
+    background-color: white;
+}
+
+.meats-seafood p{
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.bakery{
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.beverages{
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.blog{
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.contact{
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 5%;
+    cursor: pointer;    
+}
+
+.sub-element{
+    margin-left: 30px;
+   
+}
+
 
 
