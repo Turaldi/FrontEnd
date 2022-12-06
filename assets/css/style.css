@@ -280,3 +280,17 @@ a:hover {
     cursor: pointer;
 }
 
+.basket-piece{
+    display: flex;
+    padding: 15px; 
+    font-size: 16px;
+
+}
+
+.basket{
+    
+    color: red;
+    margin-left: 15px;
+}
+
+
