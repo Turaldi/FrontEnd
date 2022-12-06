@@ -306,6 +306,7 @@ a:hover {
 
 .nav-list {
    display: flex;
+   
    margin-left: 10%;
     
 }
@@ -343,6 +344,7 @@ li:hover {
     position: relative;
     margin-left: 20%;
     white-space: nowrap;
+    height: 50px;
 
 }
 
@@ -367,9 +369,10 @@ li:hover {
     cursor: pointer;
 }
 
-.btn-home:hover + .home-list {
+.home:hover .home-list {
     display: block;
 }
+
 
 .home:hover .btn-home {
     background-color: white;
@@ -391,6 +394,7 @@ li:hover {
     display: inline-block;
     position: relative;
     white-space: nowrap;
+    height: 50px;
    
 }
 
@@ -401,6 +405,7 @@ li:hover {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-left: -300px;
 }
 
 .shop-list li {
@@ -461,6 +466,119 @@ li:hover {
     margin-left: 30px;
    
 }
+.shop-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
 
 
 
+/* SLIDER START */
+
+.owl-carousel{
+    width: 100%;
+    height: 100vh;
+}
+
+.slide{
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(0, 0, 0, 0.5); */
+}
+
+.slide-1{
+    background-image: url(../img/slider-image-6.jpg);
+}
+
+.slide-2{
+    background-image: url(../img/slider-image-7.jpg);
+}
+
+.slide-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    /* padding: 0 20%; */
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.slide-content h3{
+    font-size: 3.4rem;
+    color: #333;
+    
+}
+.slide-content p{
+    font-family: "Lato",serif;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.slide-content button{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: #2bbef9;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.owl-dots{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+}
+
+.owl-dots span{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.owl-dots button{
+    border: none !important;
+    outline: none !important;
+}
+
+
+.owl-nav button{
+    border: none !important;
+    outline: none !important;
+}
+
+
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff !important;
+    font-size: 60px !important;
+    font-weight: bolder !important;
+}
+
+.owl-prev{
+    left: 1%;
+}
+
+.owl-next{
+    right: 1%;
+}
+/* SLIDER END */
