@@ -201,31 +201,15 @@ a:hover {
     justify-content: space-evenly;
     width: 200px;
 }
-
-
-
-
-
-
-
-
-
 .nav-search input[type="text"]{
     width: 553px;
     height: 60px;
     
 }
-
-
-
 .start-navbar {
     display: flex;
     margin-left: 10%;
 }
-
-
-
-
 .img-logo {
     width: 150px;
     cursor: pointer;
@@ -270,9 +254,6 @@ a:hover {
   outline: none;
   background-color: #f3f4f7;
 }
-
-
-
 .search-button {
     width: 40px;
     height: 36px;
@@ -290,3 +271,12 @@ a:hover {
     right: 20px;
     top: 20px;
 }
+
+.button-user{
+    display: flex;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
