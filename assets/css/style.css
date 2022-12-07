@@ -671,3 +671,228 @@ li:hover {
 }
 
 /* CATEGORY IMAGE LIST END */
+
+
+/* PRODUCT LIST START */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+    height: 744px;
+    border: 3px solid red;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .li{
+    list-style-type: none;
+  }
+
+  .start-list{
+    padding-left: 0;
+    
+  }
+
+  .icon-star{
+    display: inline-block;
+    color: yellow;
+  }
+
+  .piece{
+    display: flex;
+  }
+
+.piece p{
+    color: red;
+}
+.piece del{
+    opacity: 0.3;
+}
+
+
+#timer {
+    display: flex;
+    font-size: 1.25em;
+    font-weight: 10;
+    color: white;
+    /* padding: 15px; */
+    width: px;
+    color: white;
+
+}
+.date p{
+    opacity: 0.3;
+    text-align: start;
+    font-size: 15px;
+}
+
+#timer div {
+    display: inline-block;
+    width: 20%;
+    padding: 15px;
+    background: red;
+    border-radius: 10px;
+    /* border: 2px solid #030d52; */
+    margin: 15px;
+}
+
+#timer div span {
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+    font-size: .35em;
+    font-weight: 400;
+}
+.wrapper {
+    width: 330px;
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto;
+    margin-bottom: 5px;
+    }
+    
+    .skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x:hidden;
+    
+    }
+    
+    .skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+    }
+    
+    .skill:before {
+    width: 100%;
+    height: 10px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+    }
+    
+    .skill-bar {
+    width: 100%;
+    height: 10px;
+    background:#f4392f;
+    display: block;
+    position: relative;
+    }
+    
+    .skill-bar span {
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+    }
+    
+    .skill-bar {
+    position: relative;
+    }
+    
+    .skill1 .skill-count1 {
+    right: 0;
+    }
+    
+    .skill1 {
+    width: 95%;
+    }
+
+    .date-text{
+        font-size: 20px;
+    }
+    .date-text p{
+        color: #2bbef9;
+    }
+    .date-text strong{
+        color: blue;
+    }
+
+
+
+    .containers{
+        width: 780px;
+        height: 797px;
+        padding-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    
+    .containers .product-card{
+        width: 250px;
+        height: 380px;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid gray;
+       
+    }
+    
+    .containers .product-card .product-image{
+        width: 230px;
+        margin: 20px auto;
+    }
+    
+    .containers .product-card .product-image img{
+        width: 100%;
+        transition: 0.4s;
+    }
+    
+    .containers .product-card .product-image img:hover{
+        transform: scale(1.1);
+        
+    }
+    
+    .containers .product-card .product-info h4{
+        font-size: 18px;
+        padding: 0px 25px;
+        margin-bottom: 10px;
+    }
+    
+    .containers .product-card .product-button{
+        width: 100%;
+    }
+    
+    .containers .product-card .btn-product{
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        border: 1px solid gray;
+        outline: none;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 0 0 15px 15px;
+    
+    
+    }
+    
+    .product-list-card{
+       
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        
+    }
+
+    /* PRODUCT LIST END */
+    
+    
+
+
+
+
+
+
+
