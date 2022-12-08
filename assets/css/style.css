@@ -994,13 +994,13 @@ li:hover {
 /* BANNER END */
 
 
+/* SELLERS START */
 .homeSlider{
     width: 1130px;
     height: 350px;
-    margin-left: 14%;
-    padding: 30px;
-     
-    
+    margin-left: 15%;
+    padding: 30px; 
+    /* background-color: red; */
 }
 
 .homeSlider-title h2{
@@ -1078,16 +1078,6 @@ li:hover {
     cursor: pointer;
     
   }
-  
-  /* .item:hover .homeSlider-btn {
-    opacity: 1;
-  } */
-  
-  /* .homeSlider-btn :hover {
-    background: #ff7d7d;
-    color: #fff;
-  } */
-  
   .item-info {
     width: 234px;
     height: 194x;
@@ -1115,6 +1105,31 @@ li:hover {
     margin: 0px 0px 10px;
     text-decoration: line-through;
   }
+  /* SELLERS END */
+
+  /* POSTER START */
+
+  .header-poster-h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+  }
+  
+  .header-poster-h1 {
+    font-size: 1.2em;
+    padding: 10px 0;
+  }
+  
+  .header-poster {
+    width:1131px;
+    margin-left: 15%;
+    text-align: center;
+    background: #FBEACF;
+    color: black;
+    margin-top: 22px;
+  }
+
+  /* POSTER END */
 
 
 
