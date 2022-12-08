@@ -1,6 +1,6 @@
 // SLIDER CONTAINER START
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
+    $(".first-slider").owlCarousel({
         items:1,
         loop:true,
         nav:true,
@@ -39,3 +39,20 @@ function updateTimer() {
   '<div>' + s + '<span>Seconds</span></div>';
 }
 setInterval('updateTimer()', 1000);
+
+
+
+// $('.homeSlider').slick({
+//     infinite: true,
+//     slidesToShow: 3,
+//     slidesToScroll: 3,
+//     arrows:true,
+//     dots:true
+//   });
+
+
+$('.homeSlider-item').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 3
+  });
