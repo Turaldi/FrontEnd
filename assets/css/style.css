@@ -1226,3 +1226,90 @@ li:hover {
 
   /* PRODUCT GALLERY END */
 
+
+  /* SECTION GALLERY */
+
+  .section-galleries{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .section-container img{
+    width: 369px;
+    height: 218px;
+  }
+
+
+  .section-container-title h2 {
+    font-family: "dosis",sans-serif;
+    color: #9b9bb4;
+    font-size: 8px;
+    margin: 10px;
+  }
+
+
+  .section-container-title p{
+    font-family: "Inter",sans-serif;
+    color: #202435;
+    font-size: 18px;
+    white-space: pre-line;
+  }
+
+  .section-container-date{
+    display: flex;
+    padding: 5px;
+    /* white-space: nowrap; */
+  }
+
+  .section-container-date p{
+    font-family: "inter",sans-serif;
+    color: #71778e;
+    font-size: 14px;
+  }
+  .section-container-date span{
+    font-family: "inter",sans-serif;
+    color: #202435;
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+
+  .section-container-date h2{
+    font-family: "inter",sans-serif;
+    color: #202435;
+    padding: 0px 5px;
+    font-size: 14px;
+  }
+
+  .section-context{
+    position: relative;
+    text-align: center;
+  }
+
+  .section-context-title{
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+  }
+
+  .section-context-title p{
+    color: #00b853;
+    padding: 5px;
+  }
+  .section-context-title h2{
+    padding: 5px;
+
+  }
+
+  .section-context-title span{
+    color: #71778e;
+
+  }
+
+
+  /* SECTION GALLERY */
+
