@@ -1227,7 +1227,7 @@ li:hover {
   /* PRODUCT GALLERY END */
 
 
-  /* SECTION GALLERY */
+  /* SECTION GALLERY START */
 
   .section-galleries{
     display: flex;
@@ -1311,5 +1311,64 @@ li:hover {
   }
 
 
-  /* SECTION GALLERY */
+  /* SECTION GALLERY END */
 
+  /* FOOTER START */
+
+  .footer-banner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #233a95;
+    padding: 2px;
+  }
+
+  .footer-form{
+    position: relative;
+  }
+
+  .footer-form-title{
+    color: white;
+
+  }
+  .footer-form-title span{
+    white-space: pre-line;
+    opacity: 0.3;
+    font-size: 13px;
+    font-family: "inter",sans-serif;
+  }
+
+  .footer-form-title p{
+    font-family: "inter",sans-serif;
+    padding: 5px;
+  }
+  .footer-form-title h2{
+    font-family: "inter",sans-serif;
+    padding: 5px;
+  }
+
+  .footer-form-input input[type="email"]{
+    width: 470px;
+    height: 62px;
+  }
+
+  .footer-form-input input[type="submit"]{
+    position: absolute;
+    font-size: 15px;
+    height: 54px;
+    width: 102px;
+    bottom: 4px;
+    right: 4px;
+    border: 0;
+    background-color: #233a95;
+    color: #fff;
+  }
+
+
+  .first-image{
+    width: 510px;
+    height: 277px;
+    padding: 0 12%;
+    
+  }
