@@ -1372,3 +1372,43 @@ li:hover {
     padding: 0 12%;
     
   }
+
+
+
+  /* FOOTER ICON */
+
+  .footer-icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 35px 0;
+  }
+
+  .footer-icon-product{
+    display: flex;
+    padding: 0px 15px;
+  }
+  .footer-icon-cargo{
+    display: flex;
+    padding: 0px 15px;
+  }
+  .footer-icon-discount{
+    display: flex;
+    padding: 0px 15px;
+  }
+  .footer-icon-coins{
+    display: flex;
+    padding: 0px 15px;
+  }
+
+
+  .fa-solid{
+    padding: 0 15px;
+  }
+
+  .fa-brands{
+    padding: 0 15px;
+  }
+  /* FOOTER ICON END */
