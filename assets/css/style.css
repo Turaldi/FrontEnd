@@ -42,7 +42,7 @@ a {
     margin-left: 30px;
 }
 
-a:hover {
+.header-about-left a:hover {
     color: #2bbef9;
 }
 
@@ -62,6 +62,10 @@ a:hover {
 .header-about-settings {
     display: flex;
 
+}
+
+.basket a{
+    color: red;
 }
 
 
