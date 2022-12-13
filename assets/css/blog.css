@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog-site{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+   
+}
+
+.blog-post-img img{
+    width: 855px;
+    height: 598px;
+}
+.blog-post-title{
+    width: 75%;
+}
+.blog-post-title h2{
+    font-size: 36px;
+    font-family: "Inter",sans-serif;
+    white-space: pre-line;
+    padding: 10px;
+}
+
+.blog-post-title p{
+    white-space: pre-line;
+    padding: 10px;
+}
+
+.blog-post-btn{
+    width: 113px;
+    height: 40px;
+    margin: 10px;
+    background-color: #233a95;
+    color: white;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.blog-post-icon{
+    display: flex;
+    margin: 0 0 10px;
+}
+
+.blog-post-icon p{
+    margin-left: 10px;
+}
+
+.fa-regular{
+    margin-left: 10px;
+}
+
+.fa-solid{
+    margin-left: 10px;
+}
+.blog-post-widget img{
+
+    width: 60px;
+    height: 60px;
+}
+.blog-post-widget p{
+    white-space: pre-line;
+    padding: 0 20px;
+}
+.blog-post-widget-1{
+    display: flex;
+    padding: 15px;
+}
+.blog-post-widget-2{
+    display: flex;
+    padding: 15px;
+}
+.blog-post-widget-3{
+    display: flex;
+    padding: 15px;
+}
+
+.blog-post-title h2{
+    font-size: 15px;
+}
+
+.blog-social-icon{
+    display: flex;
+    
+}
+
+.blog-fb{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #3b5998;
+    background-color: #3b5998;
+    color: white;
+}
+.blog-fb p{
+    padding: 0 10px;
+}
+.blog-twitter{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #1da1f2;
+    background-color: #1da1f2;
+    color: white;
+}
+.blog-twitter p{
+    padding: 0 10px;
+    
+}
+.blog-pin{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #e60023;
+    background-color: #e60023;
+    color: white;
+}
+.blog-pin p{
+    padding: 0 10px;
+}
+.blog-linkendin{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #0077b5;
+    background-color: #0077b5;
+    color: white;
+}
+.blog-linkendin p{
+    padding: 0 10px;
+}
+.blog-reddit{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ff4500;
+    background-color: #ff4500;
+    color: white;
+}
+.blog-reddit p{
+    padding: 0 10px;
+}
+
+
+.blog-post-banner img{
+    width: 270px;
+    height: 369px;
+}
+
+.blog-post-banner h2{
+    width: 270px;
+    height: 18px;
+    font-size: 15px;
+}

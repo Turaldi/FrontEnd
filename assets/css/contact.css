@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.subject{
+  resize: none !important;
+}
 .contact-title{
     display: flex;
     flex-wrap: wrap;
