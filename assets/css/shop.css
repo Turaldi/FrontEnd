@@ -1,0 +1,153 @@
+.shops {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1688px;
+    height: 2065px;
+    padding: 10px 15px;
+}
+
+.shop-title-list {
+    margin-left: 13%;
+    text-align: start;
+    font-size: 13px;
+}
+
+.shop-titles {
+    font-size: 13px;
+    color: #202435;
+    font-family: "Dosis", sans-serif;
+    padding: 10px;
+
+}
+
+.shop-title-ul {
+    display: flex;
+    margin-left: 40px;
+    text-align: start;
+    padding: 0 0 10px;
+}
+
+.sliders {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.sliders::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #202435;
+    cursor: pointer;
+}
+
+.sliders::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #202435;
+    cursor: pointer;
+}
+
+
+.shop-banner img {
+    width: 270px;
+    height: 369px;
+}
+
+
+
+.prieces-titles {
+    font-size: 13px;
+    color: #202435;
+    font-family: "Dosis", sans-serif;
+    padding: 10px;
+}
+
+.slidecontainer p{
+    text-align: start;
+    padding: 0 0 10px;
+}
+
+.shop-status{
+    font-size: 13px;
+    color: #202435;
+    font-family: "Dosis", sans-serif;
+    padding: 10px;
+    text-align: start;
+}
+
+.shop-brands{
+    font-size: 13px;
+    color: #202435;
+    font-family: "Dosis", sans-serif;
+    padding: 10px;
+    text-align: start;
+}
+
+
+.shop-title-list-1{
+    padding: 0 20px 0 40px;
+}
+
+.shop-title-list-banner{
+    position: relative;
+    text-align: center;
+}
+
+.shop-title-list-banner img{
+    width: 855px;
+    height: 240px;
+}
+
+
+
+.shop-banner-context{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-banner-context h1{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: start;
+    width: 322px;
+    height: 28px;
+}
+
+
+.shop-banner-context p{
+    font-size: 1.875rem;
+    text-align: start;
+    width: 322px;
+    height: 36px;
+    font-family: "Inter",sans-serif;
+}
+
+.shop-banner-context h2{
+    font-size: 10px;
+    text-align: start;
+    width: 322px;
+    height: 18px;
+    white-space: nowrap;
+    opacity: 0.3;
+}
+
+.shop-banner-context span{
+    color: #00b853;
+    font-family: "Inter",sans-serif;
+}
