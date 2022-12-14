@@ -13,9 +13,9 @@
 
 <body>
 
-     <!-- HEADER START -->
+    <!-- HEADER START -->
 
-     <section id="header">
+    <section id="header">
         <header class="header-nav">
             <div class="header-first">
                 <p>
@@ -195,7 +195,8 @@
                 </div>
                 <div class="nav-list">
                     <div class="home">
-                        <button class="btn-home"> <a href="./home.html">Home</a><i class="fa-solid fa-angle-down"></i> </button>
+                        <button class="btn-home"> <a href="./home.html">Home</a><i class="fa-solid fa-angle-down"></i>
+                        </button>
                         <div class="home-list">
                             <ul class="home-ul">
                                 <li>Home 1</li>
@@ -209,7 +210,8 @@
                     </div>
 
                     <div class="shop">
-                        <a href="./shop.html"><button class="btn-shop">SHOP <i class="fa-solid fa-angle-down"></i> </button></a>
+                        <a href="./shop.html"><button class="btn-shop">SHOP <i class="fa-solid fa-angle-down"></i>
+                            </button></a>
                         <div class="shop-list">
                             <ul class="shop-ul">
 
@@ -324,41 +326,238 @@
 
     <!-- PRODUCT DETAIL START -->
     <div class="product-detail">
-        <div class="product-detail-title">
-            <h2>All Natural Italian-Style Chicken Meatballs</h2>
-        </div>
-        <div class="flex-box">
-            <div class="left">
-                <div class="big-img">
-                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62.jpg">
-                </div>
-                <div class="images">
-                    <div class="small-img">
-                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-150x150.jpg"
-                            onclick="showImg(this.src)">
+        <div class="container">
+            <div class="single-product">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="product-image">
+                            <div class="product-image-main">
+                                <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62.jpg"
+                                    alt="" id="product-main-image">
+                            </div>
+                            <div class="product-image-slider">
+                                <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62.jpg"
+                                    alt="" class="image-list">
+                                <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image2-47.jpg"
+                                    alt="" class="image-list">
+                                <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image3-35.jpg"
+                                    alt="" class="image-list">
+                            </div>
+                        </div>
                     </div>
-                    <div class="small-img">
-                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image2-47-150x150.jpg"
-                            onclick="showImg(this.src)">
-                    </div>
-                    <div class="small-img">
-                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image3-35-150x150.jpg"
-                            onclick="showImg(this.src)">
+                    <div class="col-6">
+
+
+                        <div class="product">
+                            <div class="product-title">
+                                <h2>All Natural Italian-Style Chicken Meatballs</h2>
+                            </div>
+                            <div class="product-rating">
+                                <span<i class="fa-solid fa-star"></i></span>
+                                    <span<i class="fa-solid fa-star"></i></span>
+                                        <span<i class="fa-solid fa-star"></i></span>
+                                            <span<i class="fa-solid fa-star"></i></span>
+                                                <span<i class="fa-solid fa-star"></i></span>
+
+                                                    <span class="review">(47 Review)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="offer-price">$7.25</span>
+                                <span class="sale-price">$9.35</span>
+                            </div>
+
+                            <div class="product-details">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est magnam quibusdam
+                                    maiores sit perferendis minima cupiditate iusto earum repudiandae maxime vitae
+                                    nostrum, ea cumque iste ipsa hic commodi tempore.</p>
+                            </div>
+
+                            <span class="divider"></span>
+
+                            <div class="product-btn-group">
+                                <div class="button buy-now"><i class='bx bxs-zap'></i> Buy Now</div>
+                                <div class="button add-cart"><i class='bx bxs-cart'></i> Add to Cart</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
+
+        <div class="wrapper">
+            <div class="tabs">
+                <div class="tab">
+                    <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+                    <label for="tab-1" class="tab-label">DESCRIPTION</label>
+                    <div class="tab-content">Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae
+                        magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit
+                        feugiat ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                        nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam
+                        aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a
+                        tortor. </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+                    <label for="tab-2" class="tab-label">ADDITIONAL INFORMATION</label>
+                    <div class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae hic
+                        similique error tempora. Minima, tenetur veritatis eum consequuntur doloribus provident. </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
+                    <label for="tab-3" class="tab-label">REVIEWS</label>
+                    <div class="tab-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+                        fugiat.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-products">
+            <div class="related-product-1">
+                <div class="title">
+                    <h2>RELATED PRODUCTS</h2>
+                </div>
+                <div class="galleryy">
+                    
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Zevia Kidz Strawberry Lemonade Zero Calorie Soda</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-2-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Wheat Thins Original Crackers</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-3-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Werther’s Original Caramel Hard Candies</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-4-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Warrior Blend Organic</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    
             
-        <div class="product-piece">
-            <p>$7.25</p>
+            
+            
+            
+                </div>
+
+            </div>
+            <div class="related-product-2">
+                <div class="title">
+                    <h2>RECENTLY VIEWED PRODUCTS</h2>
+                </div>
+                <div class="galleryy">
+                    
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Zevia Kidz Strawberry Lemonade Zero Calorie Soda</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-2-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Wheat Thins Original Crackers</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-3-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Werther’s Original Caramel Hard Candies</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-4-346x310.jpg"
+                            class="gallery-img" alt="">
+                        <p class="gallery-title">Warrior Blend Organic</p>
+                        <h6>$100.00</h6>
+                        <ul class="gallery-ul">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <button class="product-gallery-button">Buy product</button>
+                    </div>
+                    
+            
+            
+            
+            
+                </div>
+
+            </div>
+            
+        
         </div>
 
-
-
-
-        
     </div>
+    
     <!-- PRODUCT DETAIL END -->
 
 
@@ -367,3 +566,4 @@
 <script src="./js/product.js"></script>
 
 </html>
+
