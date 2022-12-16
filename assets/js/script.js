@@ -1,3 +1,27 @@
+let xmark = document.getElementById("xmark")
+let input = document.getElementById("input")
+
+// input.onfocus=()=>{
+//     xmark.style.opacity="1"
+// }
+// input.onblur=()=>{
+//     xmark.style.opacity="0"
+// }
+
+setInterval(Hello, 100)
+function Hello() {
+    if (input.value!="") {
+        xmark.style.opacity="1"
+    }else if(input.value==""){
+        xmark.style.opacity="0"
+    }
+}
+
+xmark.addEventListener("click",()=>{
+    input.value=""
+    xmark.style.opacity="0"
+})
+
 // SLIDER CONTAINER START
 $(document).ready(function () {
     $(".first-slider").owlCarousel({
@@ -45,7 +69,4 @@ $('.homeSlider-item').slick({
     slidesToShow: 4,
     slidesToScroll: 3
 });
-
-
-
 
